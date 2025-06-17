@@ -1,0 +1,47 @@
+{
+  "applicantName": "Michael & Lisa",
+  "income": 20000,
+  "hasMedicalClearance": false,
+  "hasHomeStudy": true,
+  "notes": "Professional couple with busy careers. Can afford support services. Bilingual in English and Spanish.",
+  "interviewResponses": [
+    "We can provide everything a child needs.",
+    "Our home is ready — we've been preparing for years."
+  ],
+  "applicantAge": 35,
+  "maritalStatus": "Married",
+  "monthlyExpenses": 12000,
+  "backgroundCheckNotes": "No legal issues. Previously fostered once.",
+  "childProfile": {
+    "childName": "Alex",
+    "language": "Spanish",
+    "culture": "urban",
+    "needs": ["emotional presence", "shared time"],
+    "childAge": 5,
+    "traumaSurvivor": false,
+    "idealTraits": ["available parent", "attention"]
+  },
+  "interviewBranches": [
+    {
+      "question": "How will you balance work and parenting?",
+      "possibleResponses": [
+        "We've arranged flexible work schedules and hired help.",
+        "Family time is our priority, we'll make it work."
+      ]
+    },
+    {
+      "question": "What's your experience with children?",
+      "possibleResponses": [
+        "We've been fostering for a year, learning every day.",
+        "We have nieces and nephews we're very close to."
+      ]
+    },
+    {
+      "question": "How will you handle cultural differences?",
+      "possibleResponses": [
+        "We're learning Spanish and embracing traditions.",
+        "We believe in celebrating all cultures equally."
+      ]
+    }
+  ]
+}

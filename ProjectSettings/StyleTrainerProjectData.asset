@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07c9b2c97f84356bb2bfac29363e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StyleTrainerData:
+    rid: 4124565317098406081
+  m_DefaultStyleData:
+    rid: 4124565317098406082
+  m_DefaultStyleVersion: 2023111600
+  m_DefaultStyles:
+  - rid: 4124565317098406334
+  m_AssetPath: 
+  m_PreviousProjectIDs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4124565317098406081
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: a196089d-92bb-41ae-b34b-9eac461b5a6d
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 4124565317098406083
+        m_Version: 202231001
+    - rid: 4124565317098406082
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 4124565317098406335
+        m_Version: 202231001
+    - rid: 4124565317098406083
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: dc24d80a-29a8-4962-8db4-2694b1de1cc1
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 4124565317098406084
+        m_Visible: 1
+        selectedCheckPointGUID: b53abf42-3e3f-4278-90af-939093b5972b
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 157a82dc-3798-41f6-b4b1-962f7d1aa78d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: f5246c37-dc24-4673-9092-953e3c70786e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: f5246c37-dc24-4673-9092-953e3c70786e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: ac122e44-d0d2-4125-9738-a0d6aa6b352c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ac122e44-d0d2-4125-9738-a0d6aa6b352c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 3297c1f2-b78b-4e0d-ba68-282d5d4a3981
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3297c1f2-b78b-4e0d-ba68-282d5d4a3981
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 200
+        - m_Guid: 8c9c0da2-3039-4d96-a81a-5952537accf7
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 2ae04e48-e56f-4f89-ae9e-be9b93511a04
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2ae04e48-e56f-4f89-ae9e-be9b93511a04
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: cde7202c-d7b2-4e6a-a6b1-d22f0e60041a
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: cde7202c-d7b2-4e6a-a6b1-d22f0e60041a
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 29419181-86b0-43dd-a7bd-efe506d943ff
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 29419181-86b0-43dd-a7bd-efe506d943ff
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 400
+        - m_Guid: 037edd36-28ad-49be-acf1-91553b308f90
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 6b780a42-4980-40ac-a072-462f58e1ea21
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6b780a42-4980-40ac-a072-462f58e1ea21
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: 9ad782a8-cfd0-477a-9444-75cbb3273f1e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 9ad782a8-cfd0-477a-9444-75cbb3273f1e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 39e1e0d0-5b1d-4f33-94fe-ffa59596a1a9
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 39e1e0d0-5b1d-4f33-94fe-ffa59596a1a9
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 600
+        - m_Guid: f96fa632-03a0-4a2a-a315-3eae3176bb02
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 66032a8c-2cfb-4e8a-8d78-13948cd735cb
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 66032a8c-2cfb-4e8a-8d78-13948cd735cb
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: 98d64c76-0546-4915-81c2-19ce0521fe3b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 98d64c76-0546-4915-81c2-19ce0521fe3b
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 882b5eb0-6564-4b78-91c5-5c3ce2e2be44
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 882b5eb0-6564-4b78-91c5-5c3ce2e2be44
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 800
+        - m_Guid: fe74757c-d06b-4a0d-9c45-be9c6ca9e9ab
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 44f821f9-8805-4833-9e52-b82ad4ba927c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 44f821f9-8805-4833-9e52-b82ad4ba927c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: a83f052c-191d-4173-a211-6983b863af6b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a83f052c-191d-4173-a211-6983b863af6b
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 17d477e2-a666-4278-b0d6-7717695bb6b8
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 17d477e2-a666-4278-b0d6-7717695bb6b8
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1000
+        - m_Guid: 05ceeb74-2873-4e9c-8455-50c455c43c26
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 2e1c265b-cf17-45c8-a580-4aa7f2db9ffd
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2e1c265b-cf17-45c8-a580-4aa7f2db9ffd
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: fafbe233-01f2-4171-b19a-f47ee9740e6b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: fafbe233-01f2-4171-b19a-f47ee9740e6b
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 1acc024f-b82b-4f58-af43-1aff055904f1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 1acc024f-b82b-4f58-af43-1aff055904f1
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1200
+        - m_Guid: 7f5c7d44-f769-405d-baa7-c131c3c20b60
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 6d1d83d0-6f40-40d3-b8fa-6d6b6fac07ca
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6d1d83d0-6f40-40d3-b8fa-6d6b6fac07ca
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: ad16e574-56de-4d12-9638-db43df93167d
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ad16e574-56de-4d12-9638-db43df93167d
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: acb834a4-ca03-4e8f-af4e-1f8477b6d2a4
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: acb834a4-ca03-4e8f-af4e-1f8477b6d2a4
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1400
+        - m_Guid: 9dcec819-6a28-40ea-9e21-1f07368486bd
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 19cba234-d8a6-4bd0-a9ca-7fe491366faf
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 19cba234-d8a6-4bd0-a9ca-7fe491366faf
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: 161c5a64-dded-49b8-9988-0b6a0fc10125
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 161c5a64-dded-49b8-9988-0b6a0fc10125
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: b32686f0-842a-4c6d-9583-ee9905197706
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: b32686f0-842a-4c6d-9583-ee9905197706
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1600
+        - m_Guid: 41b39896-468c-483d-ba64-def90993d000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 218c4dc3-4e06-441e-895c-0070b9fb505e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 218c4dc3-4e06-441e-895c-0070b9fb505e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: e4d74411-bb45-45aa-891b-a00004456afa
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e4d74411-bb45-45aa-891b-a00004456afa
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 58f360e4-0f24-4c1d-99ee-9eba9f74c5a6
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 58f360e4-0f24-4c1d-99ee-9eba9f74c5a6
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1800
+        - m_Guid: b53abf42-3e3f-4278-90af-939093b5972b
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_Name: Miks Pixel art
+          m_Description: For Their best interest pixel art
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+          m_ValidationImagesData:
+          - m_Guid: 1f5c98dd-2f99-49fa-bd72-74e297193aec
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 1f5c98dd-2f99-49fa-bd72-74e297193aec
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: man with glasses
+          - m_Guid: 2f463525-5d01-4d28-a1a6-e854eeaadadf
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2f463525-5d01-4d28-a1a6-e854eeaadadf
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: office with desk
+          - m_Guid: 1f796b9b-43e7-4763-9ac7-512aede48216
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 1f796b9b-43e7-4763-9ac7-512aede48216
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: interregation room
+          m_FavoriteSampleOutputDataGuid: 2f463525-5d01-4d28-a1a6-e854eeaadadf
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - man with glasses
+        - office with desk
+        - interregation room
+        m_TrainingSetData:
+        - m_Guid: 82d24a96-0087-4757-97dd-061dd291d7e6
+          m_State: 1
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: c3508b07-2de9-475a-af97-02245325ed52
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4124565317098406336
+          - m_Guid: c21a0ca1-9e65-49da-9f02-6f57e4e4ab28
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4124565317098406337
+          - m_Guid: 59702d32-16b3-4d60-959d-44a5c79d55bc
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4124565317098406338
+          - m_Guid: aa6bb2c9-572e-4bc9-8f25-4cd0b43f079c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4124565317098406339
+          - m_Guid: 0780fc78-9180-4133-9eb1-a21275be092b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4124565317098406340
+          m_ProjectID: a196089d-92bb-41ae-b34b-9eac461b5a6d
+        m_Name: Miks Pixel art
+        m_Description: For Their best interest pixel art
+    - rid: 4124565317098406084
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 1
+    - rid: 4124565317098406334
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 4124565317098406335
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: 'Happy Harvest [Orion V4 2000]'
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
+    - rid: 4124565317098406336
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: c3508b07-2de9-475a-af97-02245325ed52
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4124565317098406337
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: c21a0ca1-9e65-49da-9f02-6f57e4e4ab28
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4124565317098406338
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 59702d32-16b3-4d60-959d-44a5c79d55bc
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4124565317098406339
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: aa6bb2c9-572e-4bc9-8f25-4cd0b43f079c
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4124565317098406340
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 0780fc78-9180-4133-9eb1-a21275be092b
+        m_State: 1
+        m_Disposing: 1

@@ -1,0 +1,48 @@
+{
+    "applicantName": "Sarah & James",
+    "income": 15000,
+    "hasMedicalClearance": true,
+    "hasHomeStudy": true,
+    "notes": "Stable couple with good support system. Can provide a loving home.",
+    "interviewResponses": [
+        "We've been preparing for this for a long time.",
+        "Our home is ready and we have a strong support network."
+    ],
+    "applicantAge": 32,
+    "maritalStatus": "Married",
+    "monthlyExpenses": 8000,
+    "backgroundCheckNotes": "Clean record. Previous experience with children.",
+    "childProfile": {
+        "childName": "Emma",
+        "language": "English",
+        "culture": "urban",
+        "needs": [ "stability", "education", "emotional support" ],
+        "childAge": 6,
+        "traumaSurvivor": false,
+        "idealTraits": [ "patient", "nurturing", "consistent" ]
+    },
+
+    "interviewBranches": [
+        {
+            "question": "How will you handle the transition period?",
+            "possibleResponses": [
+                "We'll take it slow and follow professional guidance.",
+                "We have a detailed plan and support system in place."
+            ]
+        },
+        {
+            "question": "What's your approach to education?",
+            "possibleResponses": [
+                "We believe in supporting their individual learning style.",
+                "We'll work closely with teachers and provide additional support."
+            ]
+        },
+        {
+            "question": "How will you maintain cultural connections?",
+            "possibleResponses": [
+                "We'll learn about and celebrate their cultural heritage.",
+                "We'll connect with community resources and cultural groups."
+            ]
+        }
+    ]
+}

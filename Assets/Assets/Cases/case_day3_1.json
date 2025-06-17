@@ -1,0 +1,47 @@
+{
+  "applicantName": "Uncle David",
+  "income": 8000,
+  "hasMedicalClearance": true,
+  "hasHomeStudy": false,
+  "notes": "Single uncle, rushed application due to siblings needing urgent care.",
+  "interviewResponses": [
+    "They're family. I have to take them in.",
+    "I don't have much, but I have love and a roof."
+  ],
+  "applicantAge": 42,
+  "maritalStatus": "Single",
+  "monthlyExpenses": 4500,
+  "backgroundCheckNotes": "Minor debt, but no criminal activity.",
+  "childProfile": {
+    "childName": "Sophie & Lucas",
+    "language": "English",
+    "culture": "urban",
+    "needs": ["sibling bond", "stability", "language familiarity"],
+    "childAge": 7,
+    "traumaSurvivor": true,
+    "idealTraits": ["familiar environment", "family support"]
+  },
+  "interviewBranches": [
+    {
+      "question": "How will you manage with two children?",
+      "possibleResponses": [
+        "I have family support and we'll stick together.",
+        "We'll take it one day at a time, as a family."
+      ]
+    },
+    {
+      "question": "What's your plan for their education?",
+      "possibleResponses": [
+        "I'll work extra hours to afford good schools.",
+        "We'll use community resources and support programs."
+      ]
+    },
+    {
+      "question": "How will you help them heal from trauma?",
+      "possibleResponses": [
+        "We'll get professional help and I'll be there every step.",
+        "Love, patience, and keeping them together will help."
+      ]
+    }
+  ]
+}
